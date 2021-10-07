@@ -1,0 +1,126 @@
+/* Configurate salvattore with media queries */
+@media screen and (max-width: 700px) {
+	.container__border{
+		width: 90%;
+	}
+
+	.form__comments__input_button, .body__input__save, .body__input__cancel{
+		width: 40%;
+		margin: 10px auto;
+	}
+
+	.body__input__save{
+		margin-right: 20%;
+	}
+
+	.body__name__input{
+		width: 100%;
+	}
+
+	.form__comments__input__author{
+		width: 100%;
+	}
+
+	.form__comments__author, .form__comments__status{
+		margin-bottom: 1rem;
+	}
+	
+	.form__comments__select__status{
+		width: 50%;
+	}
+
+	.container__create-issue, .container__create-issue__static{
+		padding: 10px;
+	}
+}
+
+@media screen and (min-width: 701px) and (max-width: 991px){
+	.container__border{
+		width: 100%;
+	}
+
+	.form__comments__input_button, .body__input__save, .body__input__cancel{
+		width: 20%;
+		margin: 10px auto;
+	}
+
+	.form__comments__input__author{
+		width: 90%;
+	}
+
+	.form__comments__select__status{
+		width: 50%;
+	}
+
+	.form__comments__author, .form__comments__status{
+		margin-bottom: 1rem;
+	}
+
+	.container__create-issue, .container__create-issue__static{
+		padding: 10px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.container__border{
+		width: 70%;
+	}
+
+	.form__comments__input__author{
+		width: 90%;
+	}
+
+	.form__comments__author, .form__comments__status{
+		margin-bottom: 1rem;
+	}
+
+	.form__comments__select__status{
+		width: 40%;
+	}
+
+	.container__create-issue, .container__create-issue__static{
+		padding: 10px;
+	}
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px){
+	.form__comments__input_button, .body__input__save, .body__input__cancel{
+		width: 20%;
+	}
+
+	.form__comments__input__author{
+		width: 90%;
+	}
+
+	.form__comments__select__status{
+		width: 40%;
+	}
+}
+
+@media screen and (min-width: 451px) and (max-width: 539px) {
+
+}
+
+@media screen and (min-width: 540px) and (max-width: 700px) {
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 850px) {
+
+}
+
+@media screen and (min-width: 851px) and (max-width: 991px){
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+}
+
+@media screen and (min-width: 1201px){
+	
+}
